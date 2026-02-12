@@ -28,12 +28,12 @@ public class VectorUtility {
     // TODO: Implement me properly!
 
     // check if two vectors have the same length
-    if(v1.length != v2.length){
+    if (v1.length != v2.length) {
       throw new IllegalArgumentException("Two vectors must have the same length!");
     }
 
     double result = 0.0;
-    for(int i = 0; i < v1.length; i++){
+    for (int i = 0; i < v1.length; i++) {
       result += v1[i] * v2[i];
     }
 
