@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class VectorUtility {
-
   // Add two vectors
   public double[] add(double[] v1, double[] v2) {
     // TODO: Implement me properly!

@@ -4,23 +4,19 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ArithmeticUtility {
-
-  // Add two integers
   public double add(double o1, double o2) {
     // TODO: Implement me properly!
     return 0.0;
+  }
+
+  public double multiply(final double o1, final double o2) {
+    return o2 * o1;
   }
 
   // Substract two integers
   public double subtract(double o1, double o2) {
     // TODO: Implement me properly!
     return o1 - o2;
-  }
-
-  // Multiply two integers
-  public double multiply(double o1, double o2) {
-    // TODO: Implement me properly!
-    return 0.0;
   }
 
   // divide two integers
