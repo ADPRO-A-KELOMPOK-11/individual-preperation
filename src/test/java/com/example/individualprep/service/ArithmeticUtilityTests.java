@@ -37,31 +37,31 @@ class ArithmeticUtilityTests {
   }
 
   @Test
-  void subtract_positiveNumber_withZero(){
+  void subtract_positiveNumber_withZero() {
     double result = util.subtract(9.0, 0.0);
     assertEquals(9.0, result);
   }
 
   @Test
-  void subtract_negativeNumber_withZero(){
+  void subtract_negativeNumber_withZero() {
     double result = util.subtract(-3.0, 0.0);
     assertEquals(-3.0, result);
   }
 
   @Test
-  void subtract_zeroWithPositiveNumber(){
+  void subtract_zeroWithPositiveNumber() {
     double result = util.subtract(0.0, 7.0);
     assertEquals(-7.0, result);
   }
 
   @Test
-  void subtract_zeroWithNegativeNumber(){
+  void subtract_zeroWithNegativeNumber() {
     double result = util.subtract(0.0, -5.0);
     assertEquals(5.0, result);
   }
 
   @Test
-  void subtract_twoPositiveNumbers(){
+  void subtract_twoPositiveNumbers() {
 
     // case 1: num1 is bigger than num2
     double result = util.subtract(9.0, 7.0);
@@ -77,7 +77,7 @@ class ArithmeticUtilityTests {
   }
 
   @Test
-  void subtract_twoNegativeNumbers(){
+  void subtract_twoNegativeNumbers() {
 
     // case 1: num1 is bigger than num2
     double result = util.subtract(-2.0, -9.0);
@@ -93,7 +93,7 @@ class ArithmeticUtilityTests {
   }
 
   @Test
-  void subtract_positiveNumber_withNegativeNumber(){
+  void subtract_positiveNumber_withNegativeNumber() {
     // case 1; num1 = positive, num2 = negative
     double result = util.subtract(4.0, -2.0);
     assertEquals(6.0, result);
