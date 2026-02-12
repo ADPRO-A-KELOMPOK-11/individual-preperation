@@ -1,11 +1,10 @@
-package com.example.individualprep.service.Arithmetic;
+package com.example.individualprep.service.arithmetic;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.example.individualprep.service.ArithmeticUtility;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import com.example.individualprep.service.ArithmeticUtility;
 
 class ArithmeticUtilityTests {
 

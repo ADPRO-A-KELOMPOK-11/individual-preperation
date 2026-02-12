@@ -2,10 +2,9 @@ package com.example.individualprep.service.vector;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.example.individualprep.service.VectorUtility;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import com.example.individualprep.service.VectorUtility;
 
 public class DotProductVectorTests {
 
